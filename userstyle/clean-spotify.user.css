@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Clean Spotify
 @namespace    github.com/kaunkrishna
-@version      1.0
+@version      1.0.0
 @description  Your music, zero distractions, without the clutter.
 @author       KAUN
 @match        https://open.spotify.com/*
@@ -9,146 +9,134 @@
 
 /* =============== CLEAN SPOTIFY =============== */
 
-
 /* ===== TOP HEADER (Home / Search / Profile) ===== */
 /* Hide Spotify logo (top-left corner) */
 .Cafs_YTh_Qg9Jk7m {
-    display: none;
+  display: none;
 }
 
 /* Hide buttons on right side (profile, upgrade, etc.) */
 .encore-text-body-small-bold {
-    display: none;
+  display: none;
 }
 
 /* Expand header layout (home + search container) */
 .YsP3Gj4aJDYsaOC5 {
-    width: 100%;
-    min-width: 350px;
-    max-width: none;
-    justify-content: space-between;
+  width: 100%;
+  min-width: 350px;
+  max-width: none;
+  justify-content: space-between;
 }
 
 /* Add spacing to home icon (top-left house icon) */
 .qPaMr9Jzt0_Doy3C ._Bg_zSvFrEutyacG {
-    margin-inline-start: 20px;
+  margin-inline-start: 20px;
 }
 
-
-/* ===== SEARCH BAR===== */
+/* ===== SEARCH BAR ===== */
 /* Resize and center the search bar */
 .eu6ObgEHE5owtzi_ {
-    width: 30%;
-    padding-inline: 0;
-    position: relative;
-    display: flex;
-    margin: auto;
-    padding-right: 58px;
+  width: 30%;
+  padding-inline: 0;
+  position: relative;
+  display: flex;
+  margin: auto;
+  padding-right: 58px;
 }
 
 @media (max-width: 1350px) {
-    .eu6ObgEHE5owtzi_ {
-        width: 50%;
-    }
+  .eu6ObgEHE5owtzi_ {
+    width: 50%;
+  }
 }
 
 /* Hide hover keyboard shortcuts inside search bar */
 .WsYez2D10Mop_rOw {
-    display: none;
+  display: none;
 }
-
 
 /* ===== HOME PAGE ===== */
 [data-testid="home-page"] {
+  /* Hide "Jump back in" */
+  .aKzLj1l9YnIwouCc {
+    display: none;
+  }
 
-    /* Hide "Jump back in" */
-    .aKzLj1l9YnIwouCc {
-        display: none;
-    }
+  /* Hide recommendations */
+  .l3tPikCftuELMOzz {
+    display: none;
+  }
 
-    /* Hide recommendations */
-    .l3tPikCftuELMOzz {
-        display: none;
-    }
+  /* Hide "Made for you" */
+  .YR7WOlf_lck48w4l {
+    display: none;
+  }
 
-    /* Hide "Made for you" */
-    .YR7WOlf_lck48w4l {
-        display: none;
-    }
-
-    /* Hide promotional music cards */
-    .re6tIyfoHvgJCQod,
-    .k2lmpygysqwv8ES4 {
-        display: none;
-    }
+  /* Hide promotional music cards */
+  .re6tIyfoHvgJCQod,
+  .k2lmpygysqwv8ES4 {
+    display: none;
+  }
 }
-
 
 /* ===== NOW PLAYING / RIGHT SIDEBAR ===== */
 /* Hide artist info, credits, and next in queue */
 .ax9CMxA763c25wSn {
-    display: none;
+  display: none;
 }
 
 /* Remove bottom gradient overlay in now playing view */
 .aOBAWy97nIgISCgo {
-    display: none;
+  display: none;
 }
-
 
 /* ===== SONG / ALBUM PAGE ===== */
 [data-testid="album-page"],
 [data-testid="playlist-page"] {
+  /* Hide card-style recommendation shelves */
+  .Shelf {
+    display: none;
+  }
 
-    /* Hide card-style recommendation shelves */
-    .Shelf {
-        display: none;
-    }
-
-    /* Hide list-style recommendations */
-    .Ld0s4rBe_x0Ke84Q,
-    .kgkMCZPpmzc5dRXd {
-        display: none;
-    }
+  /* Hide list-style recommendations */
+  .Ld0s4rBe_x0Ke84Q,
+  .kgkMCZPpmzc5dRXd {
+    display: none;
+  }
 }
-
 
 /* ===== ARTIST PAGE ===== */
 [data-testid="artist-page"] {
+  /* shows "Discography" */
+  .contentSpacing > .Shelf:nth-child(2) {
+    display: flex;
+  }
 
-    /* shows "Discography" */
-    .contentSpacing > .Shelf:nth-child(2) {
-        display: flex;
-    }
+  /* hides rest of the sections */
+  .Shelf {
+    display: none;
+  }
 
-    /* hides rest of the sections */
-    .Shelf {
-        display: none;
-    }
+  /* hides "On Tour" */
+  .contentSpacing > div:nth-child(4) {
+    display: none;
+  }
 
-    /* hides "On Tour" */
-    .contentSpacing > div:nth-child(4) {
-        display: none;
-    }
-
-    /* hides "About" */
-    .contentSpacing > div:nth-child(5) {
-        display: none;
-    }
+  /* hides "About" */
+  .contentSpacing > div:nth-child(5) {
+    display: none;
+  }
 }
-
 
 /* ===== SCROLL BAR ===== */
 .os-scrollbar-vertical {
-    display: none !important;
+  display: none !important;
 }
-
 
 /* ===== FOOTER ===== */
 .main-view-container__mh-footer-container {
-    display: none;
+  display: none;
 }
-
 
 /* Author - KAUN */
 /* Github - @kaunkrishna */

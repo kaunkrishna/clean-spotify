@@ -12,8 +12,8 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 
 ### Requirements
 
-- Stylus extension
-- Ad blocker (uBlock Origin recommended)
+* Stylus extension
+* Ad blocker (uBlock Origin recommended)
 <br>
 
 ### INSTALLATION
