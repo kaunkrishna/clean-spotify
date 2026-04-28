@@ -18,9 +18,7 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 
 ### INSTALLATION
 
-###### 1) Install the "Stylus" Extension in your browser
-
-###### 2) Click on the button below to install the userstyle
+#### Click on the button below to install the userstyle
 #### [![Install CLEAN-SPOTIFY](https://img.shields.io/badge/Install-Stylus-blue?style=for-the-badge)](https://raw.githubusercontent.com/kaunkrishna/clean-spotify/main/userstyle/clean-spotify.user.css)
 <br>
 
@@ -31,4 +29,7 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 <br>
 
 ##### LICENSE: OPEN SOURCE, Fork and improve it
-If you like this project, Star the repo!
+<br>
+<p align="center">
+  <i>If you like this project, Star the repo!</i>
+</p>
