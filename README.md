@@ -26,6 +26,7 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 
 * Spotify uses dynamic class names - may break after updates
 * Report bugs in the Issues tab
+<br>
 
-If you like this project, Star the repo!
 ##### LICENSE: OPEN SOURCE, Fork and improve it
+If you like this project, Star the repo!
