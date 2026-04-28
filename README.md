@@ -53,7 +53,7 @@ Click on the link below to install the userstyle:
 
 <br>
 
-#### LICENSE: OPEN SOURCE, Fork and improve it
+#### LICENSE: OPEN SOURCE - Fork it, improve it
 
 <br>
 
