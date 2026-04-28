@@ -5,38 +5,23 @@ Your music, zero distractions, without the clutter.
 
 ### Preview
 
-<table align="center" cellpadding="12">
-  <tr>
-    <td align="center" width="50%">
-      <img src="images/homePage-before.png" width="100%"><br>
-      <p>Homepage (Before)</p>
-    </td>
-    <td align="center" width="50%">
-      <img src="images/homePage-after.png" width="100%"><br>
-      <p>Homepage (After)</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="images/artistPage-before.png" width="100%"><br>
-      <p>Artist Page (Before)</p>
-    </td>
-    <td align="center">
-      <img src="images/artistPage-after.png" width="100%"><br>
-      <p>Artist Page (After)</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="images/nowPlaying-before.png" width="100%"><br>
-      <p>Now Playing (Before)</p>
-    </td>
-    <td align="center">
-      <img src="images/nowPlaying-after.png" width="100%"><br>
-      <p>Now Playing (After)</p>
-    </td>
-  </tr>
-</table>
+<br>
+<h3 align="center">Homepage</h3>
+<p align="center">
+  <img src="images/homepage.png" width="95%">
+</p>
+
+<br>
+<h3 align="center">Now Playing</h3>
+<p align="center">
+  <img src="images/nowplaying.png" width="95%">
+</p>
+
+<br>
+<h3 align="center">Artist Page / Album Page</h3>
+<p align="center">
+  <img src="images/artistpage.png" width="95%">
+</p>
 
 <br>
 
