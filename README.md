@@ -6,6 +6,7 @@ Your music, zero distractions, without the clutter.
 ### WHY THIS EXISTS?
 
 Spotify Web is powerful, but cluttered, and often distracting.
+
 This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 <br>
 <br>
