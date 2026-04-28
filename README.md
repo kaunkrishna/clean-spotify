@@ -18,8 +18,8 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 
 ### INSTALLATION
 
-#### Click on the button below to install the userstyle
-#### [![Install CLEAN-SPOTIFY](https://img.shields.io/badge/Install-Stylus-blue?style=for-the-badge)](https://raw.githubusercontent.com/kaunkrishna/clean-spotify/main/userstyle/clean-spotify.user.css)
+Click on the link below to install the userstyle:
+#### [INSTALL CLEAN SPOTIFY](https://raw.githubusercontent.com/kaunkrishna/clean-spotify/main/userstyle/clean-spotify.user.css)
 <br>
 
 ### NOTE
@@ -28,8 +28,10 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 * Report bugs in the Issues tab
 <br>
 
-##### LICENSE: OPEN SOURCE, Fork and improve it
+#### LICENSE: OPEN SOURCE, Fork and improve it
+
+
 <br>
 <p align="center">
-  <i>If you like this project, Star the repo!</i>
+  <i>Making it worse before it gets better.</i>
 </p>
