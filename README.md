@@ -5,7 +5,6 @@ Your music, zero distractions, without the clutter.
 
 ### Preview
 
-<br>
 <h3 align="center">Homepage</h3>
 <p align="center">
   <img src="images/homepage.png" width="95%">
