@@ -52,7 +52,7 @@ Click on the link below to install the userstyle:
 
 <br>
 
-#### LICENSE: OPEN SOURCE - Fork it, improve it
+#### LICENSE: (MIT) OPEN SOURCE - Fork it, improve it
 
 <br>
 
