@@ -5,9 +5,6 @@
 @description  Removes recomendations and make the UI look clean and minimal.
 @author       KAUN
 @license      Nothing
-
-@note         For full documentation and commented code:
-@note         https://github.com/kaunkrishna/clean-spotify/blob/main/code/index.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://open.spotify.com/") {
