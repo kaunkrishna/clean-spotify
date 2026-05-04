@@ -41,7 +41,7 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 ### INSTALLATION
 
 Click on the link below to install the userstyle:
-#### [INSTALL CLEAN SPOTIFY](https://raw.githubusercontent.com/kaunkrishna/clean-spotify/main/userstyle/clean-spotify.user.css)
+#### [INSTALL CLEAN SPOTIFY]([https://raw.githubusercontent.com/kaunkrishna/clean-spotify/main/userstyle/clean-spotify.user.css](https://userstyles.world/style/27855/clean-spotify))
 
 <br>
 
