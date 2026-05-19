@@ -33,10 +33,15 @@ Click on the link to install the userstyle: **[INSTALL CLEAN SPOTIFY](https://us
 ### Cleanups
 
 * **Header & Navigation** - Hides Spotify Logo / Right-Side Buttons / Resizes and Centers the Search Bar
+  
 * **Home Page** - Hides "Jump back in" / "Made for you" / Promotional Cards / "Spotify Clips" / AI Songs / AI Playlists Recommendations
+  
 * **Now Playing / Sidebar** - Hides Artist Info
+  
 * **Album / Playlist / Track Pages** - Hides Card Recommendations / List Recommendations / Playlist Recommendations
+  
 * **Artist Page** - Shows Discography, Hides "On Tour" / "About" / Promotional Cards
+  
 * **Interface** - Removes Vertical Scrollbar, Hides Footer
 
 <br>
