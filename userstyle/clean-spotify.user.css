@@ -4,7 +4,7 @@
 @namespace    https://userstyles.world/user/KAUN
 @description  Removes recomendations and make the UI look clean and minimal.
 @author       KAUN
-@license      Nothing
+@license      MIT
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://open.spotify.com/") {
