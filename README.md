@@ -24,10 +24,20 @@ Your music, zero distractions, without the clutter.
 
 <br>
 
-### WHY THIS EXISTS?
+### Installation Link
 
-Spotify Web is powerful, but cluttered, and often distracting.<br>
-This project removes distractions and keeps only what matters: **YOUR MUSIC.**
+Click on the link to install the userstyle: **[INSTALL CLEAN SPOTIFY](https://userstyles.world/style/27855/clean-spotify)**
+
+<br>
+
+### Cleanups
+
+* **Header & Navigation** - Hides Spotify Logo, Hides Right-Side Buttons, Expand Header Layout, Add Margin to Home Icon, Resizes and Centers the Search Bar
+* **Home Page** - Hides "Jump back in", Hides Recommendations, Hides "Made for you", Hides Promotional Cards, Hides "Spotify Clips", Hides AI Songs/Playlists
+* **Now Playing / Sidebar** - Hides Artist Info
+* **Album / Playlist / Track Pages** - Hides Card Recommendations, Hides List Recommendations, Hides Playlist Recommendations
+* **Artist Page** - Shows Discography, Hides "On Tour", Hides "About", Hides Promotional Cards
+* **Interface** - Remove Vertical Scrollbar, Hides Footer
 
 <br>
 
@@ -38,17 +48,10 @@ This project removes distractions and keeps only what matters: **YOUR MUSIC.**
 
 <br>
 
-### INSTALLATION
+### Notes
 
-Click on the link below to install the userstyle:
-#### [INSTALL CLEAN SPOTIFY](https://userstyles.world/style/27855/clean-spotify)
-
-<br>
-
-### NOTE
-
-* Spotify uses dynamic class names - may break after updates
-* Report bugs in the Issues tab
+* Spotify uses dynamic class names - the plugin may break after updates
+* Report bugs in the **Issues tab**
 
 <br>
 
