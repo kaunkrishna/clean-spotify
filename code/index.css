@@ -48,6 +48,7 @@
 
 /* ===== HOME PAGE ===== */
 [data-testid="home-page"] {
+
   /* Hide "Jump back in" */
   .aKzLj1l9YnIwouCc {
     display: none;
@@ -81,9 +82,11 @@
   display: none;
 }
 
-/* ===== SONG / ALBUM PAGE ===== */
+/* ===== ALBUM / PLAYLIST / TRACK PAGE ===== */
 [data-testid="album-page"],
-[data-testid="playlist-page"] {
+[data-testid="playlist-page"],
+[data-testid="track-page"] {
+
   /* Hide card-style recommendation shelves */
   .Shelf {
     display: none;
@@ -98,8 +101,14 @@
 
 /* ===== ARTIST PAGE ===== */
 [data-testid="artist-page"] {
+
   /* shows "Discography" */
-  .contentSpacing > .Shelf:nth-child(2) {
+  .contentSpacing>.Shelf:nth-child(2) {
+    display: flex;
+  }
+
+  /* shows "Show All" link on "Discography" section" */
+  .encore-text-body-small-bold {
     display: flex;
   }
 
@@ -109,12 +118,12 @@
   }
 
   /* hides "On Tour" */
-  .contentSpacing > div:nth-child(4) {
+  .contentSpacing>div:nth-child(4) {
     display: none;
   }
 
   /* hides "About" */
-  .contentSpacing > div:nth-child(5) {
+  .contentSpacing>div:nth-child(5) {
     display: none;
   }
 }
