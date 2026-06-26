@@ -24,7 +24,7 @@ Your music, zero distractions, without the clutter.
 
 <br>
 
-### Installation Link
+### Installation
 
 Click on the link to install the userstyle: **[INSTALL CLEAN SPOTIFY](https://userstyles.world/style/27855/clean-spotify)**
 
