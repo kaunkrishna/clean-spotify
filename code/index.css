@@ -11,6 +11,11 @@
   display: none;
 }
 
+/* Hide "Getting started" progress bar on profile */
+.ESQKhiBFqQIFO1qu {
+  display: none;
+}
+
 /* Expand header layout (home + search container) */
 .YsP3Gj4aJDYsaOC5 {
   width: 100%;
@@ -46,8 +51,15 @@
   display: none;
 }
 
+/* Hide "All", "Music", and "Podcast" pills */
+.x_HLN829yDsvJDgl {
+  display: none;
+}
+
 /* ===== HOME PAGE ===== */
 [data-testid="home-page"] {
+  /* Gives "home-page" top padding */
+  padding-top: 40px;
 
   /* Hide "Jump back in" */
   .aKzLj1l9YnIwouCc {
@@ -61,6 +73,11 @@
 
   /* Hide "Made for you" */
   .YR7WOlf_lck48w4l {
+    display: none;
+  }
+
+  /* Hide "Getting started" cards */
+  .C8qLX8lOHwAx63FP {
     display: none;
   }
 

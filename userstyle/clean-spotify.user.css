@@ -17,6 +17,10 @@
     display: none;
   }
 
+  .ESQKhiBFqQIFO1qu {
+    display: none;
+  }
+
   .YsP3Gj4aJDYsaOC5 {
     width: 100%;
     min-width: 350px;
@@ -47,7 +51,13 @@
     display: none;
   }
 
+  .x_HLN829yDsvJDgl {
+    display: none;
+  }
+
   [data-testid="home-page"] {
+    padding-top: 40px;
+
     .aKzLj1l9YnIwouCc {
       display: none;
     }
@@ -57,6 +67,10 @@
     }
 
     .YR7WOlf_lck48w4l {
+      display: none;
+    }
+
+    .C8qLX8lOHwAx63FP {
       display: none;
     }
 
