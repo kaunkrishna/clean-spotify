@@ -16,24 +16,25 @@
   display: none;
 }
 
-/* Hide "Upgrade to Premium" in the Profile Menu */
+/* ===== PROFILE MENU ===== */
+/* Disable the green bar below the pfp when clicked */
+.kaFcDUSEXPonEYJm:after, .ESQKhiBFqQIFO1qu:after {
+  background-color: transparent;
+}
+
+/* Hide "Upgrade to Premium" in the menu list */
 .glp7Ah4Cywoy2Q6n > li:nth-child(4) {
   display: none;
 }
 
-/* Hide the divider line below the Profle menu */
+/* Hide the divider line below the menu list */
 .noRWQA3grBYNT5QG {
   display: none;
 }
 
-/* Hides the "Your Updates" in the profile menu */
+/* Hides the "Your Updates" section*/
 .wwh7lpPwfhcu8qTg {
   display: none;
-}
-
-/* Disable the green bar below the pfp when clicked */
-.kaFcDUSEXPonEYJm:after, .ESQKhiBFqQIFO1qu:after {
-  background-color: transparent;
 }
 
 /* Expand header layout (home + search container) */

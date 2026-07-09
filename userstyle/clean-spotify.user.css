@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name         Clean Spotify
-@version      1.1.2
+@version      1.1.3
 @namespace    https://userstyles.world/user/KAUN
 @description  Your music, zero distractions, without the clutter.
 @author       KAUN
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://open.spotify.com/") {
-
+@-moz-document url-prefix("https://open.spotify.com/")
+{
   .Cafs_YTh_Qg9Jk7m {
     display: none;
   }
@@ -18,6 +18,23 @@
   }
 
   .ESQKhiBFqQIFO1qu {
+    display: none;
+  }
+
+  .kaFcDUSEXPonEYJm:after,
+  .ESQKhiBFqQIFO1qu:after {
+    background-color: transparent;
+  }
+
+  .glp7Ah4Cywoy2Q6n > li:nth-child(4) {
+    display: none;
+  }
+
+  .noRWQA3grBYNT5QG {
+    display: none;
+  }
+
+  .wwh7lpPwfhcu8qTg {
     display: none;
   }
 
@@ -102,7 +119,7 @@
   }
 
   [data-testid="artist-page"] {
-    .contentSpacing>.Shelf:nth-child(2) {
+    .contentSpacing > .Shelf:nth-child(2) {
       display: flex;
     }
 
@@ -114,11 +131,11 @@
       display: none;
     }
 
-    .contentSpacing>div:nth-child(4) {
+    .contentSpacing > div:nth-child(4) {
       display: none;
     }
 
-    .contentSpacing>div:nth-child(5) {
+    .contentSpacing > div:nth-child(5) {
       display: none;
     }
   }
