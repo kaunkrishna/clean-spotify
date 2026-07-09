@@ -16,6 +16,26 @@
   display: none;
 }
 
+/* Hide "Upgrade to Premium" in the Profile Menu */
+.glp7Ah4Cywoy2Q6n > li:nth-child(4) {
+  display: none;
+}
+
+/* Hide the divider line below the Profle menu */
+.noRWQA3grBYNT5QG {
+  display: none;
+}
+
+/* Hides the "Your Updates" in the profile menu */
+.wwh7lpPwfhcu8qTg {
+  display: none;
+}
+
+/* Disable the green bar below the pfp when clicked */
+.kaFcDUSEXPonEYJm:after, .ESQKhiBFqQIFO1qu:after {
+  background-color: transparent;
+}
+
 /* Expand header layout (home + search container) */
 .YsP3Gj4aJDYsaOC5 {
   width: 100%;
