@@ -55,7 +55,7 @@ Click on the link to install the userstyle: **[INSTALL CLEAN SPOTIFY](https://us
 
 <br>
 
-#### LICENSE: MIT (OPEN SOURCE) - Fork it, improve it
+#### LICENSE: **[MIT](https://github.com/kaunkrishna/clean-spotify?tab=MIT-1-ov-file)**
 
 <br>
 
