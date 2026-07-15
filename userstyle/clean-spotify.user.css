@@ -7,35 +7,12 @@
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://open.spotify.com/")
-{
-  .Cafs_YTh_Qg9Jk7m {
-    display: none;
-  }
+@-moz-document url-prefix("https://open.spotify.com/") {
 
-  .encore-text-body-small-bold {
-    display: none;
-  }
-
-  .ESQKhiBFqQIFO1qu {
-    display: none;
-  }
-
+  /* ========================================= LAYOUT TWEAKS & OVERRIDES ========================================= */
   .kaFcDUSEXPonEYJm:after,
   .ESQKhiBFqQIFO1qu:after {
     background-color: transparent;
-  }
-
-  .glp7Ah4Cywoy2Q6n > li:nth-child(4) {
-    display: none;
-  }
-
-  .noRWQA3grBYNT5QG {
-    display: none;
-  }
-
-  .wwh7lpPwfhcu8qTg {
-    display: none;
   }
 
   .YsP3Gj4aJDYsaOC5 {
@@ -64,87 +41,46 @@
     }
   }
 
-  .WsYez2D10Mop_rOw {
-    display: none;
-  }
-
-  .x_HLN829yDsvJDgl {
-    display: none;
-  }
-
   [data-testid="home-page"] {
     padding-top: 40px;
-
-    .aKzLj1l9YnIwouCc {
-      display: none;
-    }
-
-    .l3tPikCftuELMOzz {
-      display: none;
-    }
-
-    .YR7WOlf_lck48w4l {
-      display: none;
-    }
-
-    .C8qLX8lOHwAx63FP {
-      display: none;
-    }
-
-    .re6tIyfoHvgJCQod,
-    .k2lmpygysqwv8ES4 {
-      display: none;
-    }
   }
 
-  .ax9CMxA763c25wSn {
-    display: none;
+  [data-testid="artist-page"] .contentSpacing>.Shelf:nth-child(2),
+  [data-testid="artist-page"] .encore-text-body-small-bold {
+    display: flex;
   }
 
-  .aOBAWy97nIgISCgo {
-    display: none;
-  }
-
-  [data-testid="album-page"],
-  [data-testid="playlist-page"],
-  [data-testid="track-page"] {
-    .Shelf {
-      display: none;
-    }
-
-    .Ld0s4rBe_x0Ke84Q,
-    .kgkMCZPpmzc5dRXd {
-      display: none;
-    }
-  }
-
-  [data-testid="artist-page"] {
-    .contentSpacing > .Shelf:nth-child(2) {
-      display: flex;
-    }
-
-    .encore-text-body-small-bold {
-      display: flex;
-    }
-
-    .Shelf {
-      display: none;
-    }
-
-    .contentSpacing > div:nth-child(4) {
-      display: none;
-    }
-
-    .contentSpacing > div:nth-child(5) {
-      display: none;
-    }
-  }
-
-  .os-scrollbar-vertical {
-    display: none !important;
-  }
-
+  /* ========================================= HIDDEN ELEMENTS ========================================= */
+  .Cafs_YTh_Qg9Jk7m,
+  .encore-text-body-small-bold,
+  .ESQKhiBFqQIFO1qu,
+  .glp7Ah4Cywoy2Q6n>li:nth-child(4),
+  .noRWQA3grBYNT5QG,
+  .wwh7lpPwfhcu8qTg,
+  .WsYez2D10Mop_rOw,
+  .x_HLN829yDsvJDgl,
+  [data-testid="home-page"] .aKzLj1l9YnIwouCc,
+  [data-testid="home-page"] .l3tPikCftuELMOzz,
+  [data-testid="home-page"] .YR7WOlf_lck48w4l,
+  [data-testid="home-page"] .C8qLX8lOHwAx63FP,
+  [data-testid="home-page"] .re6tIyfoHvgJCQod,
+  [data-testid="home-page"] .k2lmpygysqwv8ES4,
+  [data-testid="album-page"] .Shelf,
+  [data-testid="playlist-page"] .Shelf,
+  [data-testid="track-page"] .Shelf,
+  [data-testid="album-page"] .Ld0s4rBe_x0Ke84Q,
+  [data-testid="playlist-page"] .Ld0s4rBe_x0Ke84Q,
+  [data-testid="track-page"] .Ld0s4rBe_x0Ke84Q,
+  [data-testid="album-page"] .kgkMCZPpmzc5dRXd,
+  [data-testid="playlist-page"] .kgkMCZPpmzc5dRXd,
+  [data-testid="track-page"] .kgkMCZPpmzc5dRXd,
+  [data-testid="artist-page"] .Shelf,
+  [data-testid="artist-page"] .contentSpacing>div:nth-child(4),
+  [data-testid="artist-page"] .contentSpacing>div:nth-child(5),
+  .ax9CMxA763c25wSn,
+  .aOBAWy97nIgISCgo,
+  .os-scrollbar-vertical,
   .main-view-container__mh-footer-container {
-    display: none;
+    display: none !important;
   }
 }
