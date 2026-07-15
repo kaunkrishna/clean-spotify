@@ -57,7 +57,7 @@ Click the button below to open the installation page and apply the userstyle to 
 <div align="center">
   <br>
   <a href="https://userstyles.world/style/27855/clean-spotify">
-    <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="320" height="auto">
+    <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="280" height="auto">
   </a>
   <br>
 </div>
