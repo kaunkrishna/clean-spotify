@@ -8,24 +8,20 @@ Platform - Spotify Web
 
 <br>
 
-### Previews
-
-<h3 align="center">Homepage</h3>
-<p align="center">
-  <img src="assets/images/homepage.png" width="95%">
-</p>
+<p align="center"><img src="assets/images/homepage.png" width="95%"></p>
+<p align="center"><i>Homepage</i></p>
 
 <br>
-<h3 align="center">Now Playing</h3>
-<p align="center">
-  <img src="assets/images/nowplaying.png" width="95%">
-</p>
+<br>
+
+<p align="center"><img src="assets/images/nowplaying.png" width="95%"></p>
+<p align="center"><i>Now Playing</i></p>
 
 <br>
-<h3 align="center">Artist Page / Album Page</h3>
-<p align="center">
-  <img src="assets/images/artistpage.png" width="95%">
-</p>
+<br>
+
+<p align="center"><img src="assets/images/artistpage.png" width="95%"></p>
+<p align="center"><i>Artist Page / Album Page</i></p>
 
 <br>
 
@@ -41,7 +37,8 @@ Platform - Spotify Web
 
 <div align="center">
 
-# [![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://userstyles.world/style/27855/clean-spotify)
+# [![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://userstyles.world/style/27855/clean-spotify) 
+  [![Platform](https://img.shields.io/badge/platform-Spotify%20Web-1DB954.svg)](https://open.spotify.com)
 
 </div>
 
@@ -81,14 +78,16 @@ Platform - Spotify Web
 * Hides the global footer container
 </details>
 
-### Contributing & Bug Reports
+<br>
+
+## Contributing & Bug Reports
 
 Because Spotify updates its web layout frequently, classes will eventually break. If you notice something looks off:
 
 * **Know how to fix it?** Check the [Class Dictionary](./CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a **Pull Request**! 
 * **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone one can grab it.
 
----
+<br>
 
 <p align="center">
   <i>Making it worse before it gets better.</i>
