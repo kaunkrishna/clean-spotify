@@ -7,7 +7,7 @@ Your music, zero distractions, without the clutter.
 <br>
 
 [![Platform](https://img.shields.io/badge/PLATFORM-SPOTIFY%20WEB-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com)
-[![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](#installation)
+[![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://userstyles.world/style/27855/clean-spotify)
 
 </div>
 
