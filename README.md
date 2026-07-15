@@ -15,7 +15,7 @@
 <br>
 
 <p align="center"><img src="assets/images/home-page.png" width="95%"></p>
-<p align="center"><i>Homepage</i></p>
+<p align="center"><i>Home Page</i></p>
 
 <br>
 <br>
