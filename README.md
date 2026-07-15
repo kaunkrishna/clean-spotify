@@ -1,9 +1,14 @@
+<div align="center">
+
 # CLEAN SPOTIFY
 
 Your music, zero distractions, without the clutter.
 
-Platform - Spotify Web
-[Install Userstyle](#-installation)
+<br>
+
+[![Platform](https://img.shields.io/badge/PLATFORM-SPOTIFY%20WEB-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com)
+[![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](#installation)
+
 </div>
 
 <br>
@@ -28,19 +33,26 @@ Platform - Spotify Web
 ## Installation
 
 > [!WARNING]
-> Spotify uses dynamic class names - the userstyle may break after updates. For a complete list of class mappings, check the [Class Dictionary](./CLASS_DICTIONARY.md).
+> Spotify uses dynamic class names - the userstyle may break after updates. In that case, you can check the [Class Dictionary](CLASS_DICTIONARY.md) or head down to the [Contributing & Bug Reports](#contributing--bug-reports) section to help patch it or report the issue.
 
-> [!NOTE]
-> Make sure you have the **[Stylus Extension](https://add-ons.mozilla.org/en-US/firefox/addon/styl-us/)** installed on your browser.
+Follow these steps to set up the userstyle:
 
-2. Click the button below to install the userstyle:
+#### Step 1: Install a Userstyle Manager
+Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is **[Stylus](https://github.com/openstyles/stylus)** (available for Chrome, Firefox, Edge, and Opera).
+
+#### Step 2: Install Clean Spotify
+Click the button below to open the installation page and apply the userstyle to your Spotify Web Player:
 
 <div align="center">
-
-# [![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://userstyles.world/style/27855/clean-spotify) 
-  [![Platform](https://img.shields.io/badge/platform-Spotify%20Web-1DB954.svg)](https://open.spotify.com)
-
+  <br>
+  <a href="https://userstyles.world/style/27855/clean-spotify">
+    <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="320" height="auto">
+  </a>
+  <br>
 </div>
+
+#### Step 3: Verify Setup
+Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.com)**. The interface will automatically update to the clean, distraction-free layout.
 
 <br>
 
@@ -85,7 +97,7 @@ Platform - Spotify Web
 Because Spotify updates its web layout frequently, classes will eventually break. If you notice something looks off:
 
 * **Know how to fix it?** Check the [Class Dictionary](./CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a **Pull Request**! 
-* **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone one can grab it.
+* **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone can patch it.
 
 <br>
 
