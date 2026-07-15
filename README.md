@@ -7,19 +7,19 @@ Your music, zero distractions, without the clutter.
 
 <h3 align="center">Homepage</h3>
 <p align="center">
-  <img src="images/homepage.png" width="95%">
+  <img src="assets/images/homepage.png" width="95%">
 </p>
 
 <br>
 <h3 align="center">Now Playing</h3>
 <p align="center">
-  <img src="images/nowplaying.png" width="95%">
+  <img src="assets/images/nowplaying.png" width="95%">
 </p>
 
 <br>
 <h3 align="center">Artist Page / Album Page</h3>
 <p align="center">
-  <img src="images/artistpage.png" width="95%">
+  <img src="assets/images/artistpage.png" width="95%">
 </p>
 
 <br>
