@@ -13,25 +13,25 @@ Your music, zero distractions, without the clutter.
 
 <br>
 
-<p align="center"><img src="assets/images/homepage.png" width="95%"></p>
+<p align="center"><img src="assets/images/home-page.png" width="95%"></p>
 <p align="center"><i>Homepage</i></p>
 
 <br>
 <br>
 
-<p align="center"><img src="assets/images/nowplaying.png" width="95%"></p>
+<p align="center"><img src="assets/images/now-playing.png" width="95%"></p>
 <p align="center"><i>Now Playing</i></p>
 
 <br>
 <br>
 
-<p align="center"><img src="assets/images/artistpage.png" width="95%"></p>
+<p align="center"><img src="assets/images/artist-page.png" width="95%"></p>
 <p align="center"><i>Artist Page</i></p>
 
 <br>
 <br>
 
-<p align="center"><img src="assets/images/albumpage.png" width="95%"></p>
+<p align="center"><img src="assets/images/album-page.png" width="95%"></p>
 <p align="center"><i>Album Page</i></p>
 
 <br>
