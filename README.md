@@ -41,12 +41,16 @@ Your music, zero distractions, without the clutter.
 > [!WARNING]
 > Spotify uses dynamic class names - the userstyle may break after updates. In that case, you can check the [Class Dictionary](CLASS_DICTIONARY.md) or head down to the [Contributing & Bug Reports](#contributing--bug-reports) section to help patch it or report the issue.
 
+<details>
+<summary>Step-by-Step Installation Instructions</summary>
+<br>
+
 Follow these steps to set up the userstyle:
 
-#### Step 1: Install a Userstyle Manager
+### Step 1: Install a Userstyle Manager
 Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is **[Stylus](https://github.com/openstyles/stylus)** (available for Chrome, Firefox, Edge, and Opera).
 
-#### Step 2: Install Clean Spotify
+### Step 2: Install Clean Spotify
 Click the button below to open the installation page and apply the userstyle to your Spotify Web Player:
 
 <div align="center">
@@ -57,15 +61,16 @@ Click the button below to open the installation page and apply the userstyle to 
   <br>
 </div>
 
-#### Step 3: Verify Setup
+### Step 3: Verify Setup
 Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.com)**. The interface will automatically update to the clean, distraction-free layout.
+</details>
 
 <br>
 
 ## Interface Cleanups
 
 <details open>
-<summary><b>Header & Navigation</b></summary>
+<summary>Header & Navigation</summary>
 
 * Hides top-left Spotify Logo
 * Hides unnecessary right-side buttons (Upgrade, etc.)
@@ -73,7 +78,7 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 </details>
 
 <details>
-<summary><b>Home Page</b></summary>
+<summary>Home Page</summary>
 
 * Hides "Jump back in" and "Made for you" shelves
 * Hides promotional music cards and "Spotify Clips"
@@ -81,7 +86,7 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 </details>
 
 <details>
-<summary><b>Artist & Media Pages</b></summary>
+<summary>Artist & Media Pages</summary>
 
 * Keeps clean **Discography** visible (along with "Show All")
 * Hides "On Tour", "About", and promotional cards on Artist page
@@ -89,7 +94,7 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 </details>
 
 <details>
-<summary><b>Now Playing & UI Adjustments</b></summary>
+<summary>Now Playing & UI Adjustments</summary>
 
 * Hides crowded Artist Info in the right sidebar
 * Removes vertical scrollbars for a completely flat look
@@ -102,7 +107,7 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 
 Because Spotify updates its web layout frequently, classes will eventually break. If you notice something looks off:
 
-* **Know how to fix it?** Check the [Class Dictionary](./CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a **Pull Request**! 
+* **Know how to fix it?** Check the [Class Dictionary](./CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a *Pull Request*! 
 * **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone can patch it.
 
 <br>
