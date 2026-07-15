@@ -50,7 +50,7 @@ Click on the link to install the userstyle: **[INSTALL CLEAN SPOTIFY](https://us
 
 ### Notes
 
-* Spotify uses dynamic class names - the plugin may break after updates
+* Spotify uses dynamic class names - the userstyle may break after updates.
 * Report bugs in the **[Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues)**
 
 <br>
