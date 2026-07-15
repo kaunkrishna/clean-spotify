@@ -1,9 +1,14 @@
 # CLEAN SPOTIFY
+
 Your music, zero distractions, without the clutter.
+
+Platform - Spotify Web
+[Install Userstyle](#-installation)
+</div>
 
 <br>
 
-### Preview
+### Previews
 
 <h3 align="center">Homepage</h3>
 <p align="center">
@@ -24,40 +29,66 @@ Your music, zero distractions, without the clutter.
 
 <br>
 
-### Installation
+## Installation
 
-Click on the link to install the userstyle: **[INSTALL CLEAN SPOTIFY](https://userstyles.world/style/27855/clean-spotify)**
+> [!WARNING]
+> Spotify uses dynamic class names - the userstyle may break after updates. For a complete list of class mappings, check the [Class Dictionary](./CLASS_DICTIONARY.md).
 
-<br>
+> [!NOTE]
+> Make sure you have the **[Stylus Extension](https://add-ons.mozilla.org/en-US/firefox/addon/styl-us/)** installed on your browser.
 
-### Interface Cleanups
+2. Click the button below to install the userstyle:
 
-* **Header & Navigation** - Hides Spotify Logo / Right-Side Buttons / Resizes and Centers the Search Bar
-* **Home Page** - Hides "Jump back in" / "Made for you" / Promotional Cards / "Spotify Clips" / AI Songs / AI Playlists Recommendations
-* **Now Playing / Sidebar** - Hides Artist Info
-* **Album / Playlist / Track Pages** - Hides Card Recommendations / List Recommendations / Playlist Recommendations
-* **Artist Page** - Shows Discography, Hides "On Tour" / "About" / Promotional Cards
-* **Interface** - Removes Vertical Scrollbar, Hides Footer
+<div align="center">
 
-<br>
+# [![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://userstyles.world/style/27855/clean-spotify)
 
-### Requirements
-
-* Stylus extension
-* Ad blocker (uBlock Origin recommended)
+</div>
 
 <br>
 
-### Notes
+## Interface Cleanups
 
-* Spotify uses dynamic class names - the userstyle may break after updates.
-* Report bugs in the **[Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues)**
+<details open>
+<summary><b>Header & Navigation</b></summary>
 
-<br>
+* Hides top-left Spotify Logo
+* Hides unnecessary right-side buttons (Upgrade, etc.)
+* Centers and beautifully resizes the search bar
+</details>
 
-#### LICENSE: **[MIT](https://github.com/kaunkrishna/clean-spotify?tab=MIT-1-ov-file)**
+<details>
+<summary><b>Home Page</b></summary>
 
-<br>
+* Hides "Jump back in" and "Made for you" shelves
+* Hides promotional music cards and "Spotify Clips"
+* Blocks AI song and AI playlist recommendations
+</details>
+
+<details>
+<summary><b>Artist & Media Pages</b></summary>
+
+* Keeps clean **Discography** visible (along with "Show All")
+* Hides "On Tour", "About", and promotional cards on Artist page
+* Removes card/list recommendations on Album, Playlist, and Track pages
+</details>
+
+<details>
+<summary><b>Now Playing & UI Adjustments</b></summary>
+
+* Hides crowded Artist Info in the right sidebar
+* Removes vertical scrollbars for a completely flat look
+* Hides the global footer container
+</details>
+
+### Contributing & Bug Reports
+
+Because Spotify updates its web layout frequently, classes will eventually break. If you notice something looks off:
+
+* **Know how to fix it?** Check the [Class Dictionary](./CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a **Pull Request**! 
+* **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone one can grab it.
+
+---
 
 <p align="center">
   <i>Making it worse before it gets better.</i>
