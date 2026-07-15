@@ -26,7 +26,7 @@ Your music, zero distractions, without the clutter.
 <br>
 
 <p align="center"><img src="assets/images/artistpage.png" width="95%"></p>
-<p align="center"><i>Artist Page / Album Page</i></p>
+<p align="center"><i>Artist Page</i></p>
 
 <br>
 
