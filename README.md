@@ -106,7 +106,7 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 
 Because Spotify updates its web layout frequently, classes will eventually break. If you notice something looks off:
 
-* **Know how to fix it?** Check the [Class Dictionary](./CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a *Pull Request*! 
+* **Know how to fix it?** Check the [Class Dictionary](CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a *Pull Request*! 
 * **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone can patch it.
 
 <br>
