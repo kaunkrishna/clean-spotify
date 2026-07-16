@@ -46,8 +46,6 @@
 <summary>Step-by-Step Installation Instructions</summary>
 <br>
 
-Follow these steps to set up the userstyle:
-
 ### Step 1: Install a Userstyle Manager
 Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is **[Stylus](https://github.com/openstyles/stylus)** (available for Chrome, Firefox, Edge, and Opera).
 
