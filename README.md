@@ -44,24 +44,21 @@
 
 <details>
 <summary>Step-by-Step Installation Instructions</summary>
-<br>
 
-### Step 1: Install a Userstyle Manager
-Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is **[Stylus](https://github.com/openstyles/stylus)** (available for Chrome, Firefox, Edge, and Opera).
+- **Install a Userstyle Manager** - Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is *[Stylus](https://github.com/openstyles/stylus)*  (available for Chrome, Firefox, Edge, and Opera).
 
-### Step 2: Install Clean Spotify
-Click the button below to open the installation page and apply the userstyle to your Spotify Web Player:
+- **Install Clean Spotify** - Click the button below to open the installation page and apply the userstyle to your Spotify Web Player:
 
-<div align="center">
+  <div align="center">
+    <a href="https://userstyles.world/style/27855/clean-spotify">
+      <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="250" height="auto">
+    </a>
+  </div>
+
   <br>
-  <a href="https://userstyles.world/style/27855/clean-spotify">
-    <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="280" height="auto">
-  </a>
-  <br>
-</div>
 
-### Step 3: Verify Setup
-Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.com)**. The interface will automatically update to the clean, distraction-free layout.
+- **Verify Setup** - Once installed, open or refresh the *[Spotify Web Player](https://open.spotify.com)*. The interface will automatically update to the clean, distraction-free layout.
+
 </details>
 
 <br>
@@ -71,33 +68,33 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 <details open>
 <summary>Header & Navigation</summary>
 
-* Hides top-left Spotify Logo
-* Hides unnecessary right-side buttons (Upgrade, etc.)
-* Centers and beautifully resizes the search bar
+- Hides top-left Spotify Logo
+- Hides unnecessary right-side buttons (Upgrade, etc.)
+- Centers and beautifully resizes the search bar
 </details>
 
 <details>
 <summary>Home Page</summary>
 
-* Hides "Jump back in" and "Made for you" shelves
-* Hides promotional music cards and "Spotify Clips"
-* Blocks AI song and AI playlist recommendations
+- Hides "Jump back in" and "Made for you" shelves
+- Hides promotional music cards and "Spotify Clips"
+- Blocks AI song and AI playlist recommendations
 </details>
 
 <details>
 <summary>Artist & Media Pages</summary>
 
-* Keeps clean **Discography** visible (along with "Show All")
-* Hides "On Tour", "About", and promotional cards on Artist page
-* Removes card/list recommendations on Album, Playlist, and Track pages
+- Keeps clean **Discography** visible (along with "Show All")
+- Hides "On Tour", "About", and promotional cards on Artist page
+- Removes card/list recommendations on Album, Playlist, and Track pages
 </details>
 
 <details>
 <summary>Now Playing & UI Adjustments</summary>
 
-* Hides crowded Artist Info in the right sidebar
-* Removes vertical scrollbars for a completely flat look
-* Hides the global footer container
+- Hides crowded Artist Info in the right sidebar
+- Removes vertical scrollbars for a completely flat look
+- Hides the global footer container
 </details>
 
 <br>
@@ -106,10 +103,12 @@ Once installed, open or refresh the **[Spotify Web Player](https://open.spotify.
 
 Because Spotify updates its web layout frequently, classes will eventually break. If you notice something looks off:
 
-* **Know how to fix it?** Check the [Class Dictionary](CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a *Pull Request*! 
-* **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone can patch it.
+- **Know how to fix it?** Check the [Class Dictionary](CLASS_DICTIONARY.md) to locate the broken selector, swap in Spotify's new class hash, and open a *Pull Request*! 
+- **Just want to report it?** Open a detailed ticket in the [Issues Tab](https://github.com/kaunkrishna/clean-spotify/issues) with a screenshot so someone can patch it.
 
 <br>
+
+---
 
 <p align="center">
   <i>Making it worse before it gets better.</i>
