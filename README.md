@@ -45,16 +45,16 @@
 <details>
 <summary>Step-by-Step Installation Instructions</summary>
 
-- **Install a Userstyle Manager** - Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is *[Stylus](https://github.com/openstyles/stylus)*  (available for Chrome, Firefox, Edge, and Opera).
+- **Install a Userstyle Manager** - Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is *[Stylus](https://github.com/openstyles/stylus)* (available for Chrome, Firefox, Edge, and Opera).
 
 - **Install Clean Spotify** - Click the button below to open the installation page and apply the userstyle to your Spotify Web Player:
 
+  <br>
   <div align="center">
     <a href="https://userstyles.world/style/27855/clean-spotify">
       <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="250" height="auto">
     </a>
   </div>
-
   <br>
 
 - **Verify Setup** - Once installed, open or refresh the *[Spotify Web Player](https://open.spotify.com)*. The interface will automatically update to the clean, distraction-free layout.
