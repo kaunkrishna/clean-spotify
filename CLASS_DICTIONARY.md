@@ -3,12 +3,16 @@
 > [!WARNING]
 > Spotify uses dynamic class names - the userstyle may break after updates.
 
+<br>
+
 ### Global & Overrides
 
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
 | **Global Scrollbar** | `.os-scrollbar-vertical` | Hides the vertical scrollbar globally. |
 | **Main Footer** | `.main-view-container__mh-footer-container` | Hides the main Spotify footer container. |
+
+<br>
 
 ### Top Header
 
@@ -19,6 +23,8 @@
 | **Spotify Logo** | `.Cafs_YTh_Qg9Jk7m` | Hides the Spotify logo in the top-left corner. |
 | **Right Side Buttons** | `.encore-text-body-small-bold` | Hides buttons like "Explore Premium". *(Note: This is overridden later to show the "Show All" button).* |
 
+<br>
+
 ### Search Bar
 
 | UI Element | Current Class Hash / Selector | Action |
@@ -26,6 +32,8 @@
 | **Search Container** | `.eu6ObgEHE5owtzi_` | Centers and resizes the search input field. |
 | **Hover Shortcuts**| `.WsYez2D10Mop_rOw` | Hides the keyboard shortcut hints in the search bar. |
 | **Filter Pills** | `.x_HLN829yDsvJDgl` | Hides the "All", "Music", and "Podcast" filter pills. |
+
+<br>
 
 ### Profile Menu
 
@@ -36,6 +44,8 @@
 | **Upgrade to Premium** | `.glp7Ah4Cywoy2Q6n > li:nth-child(4)` | Hides the upgrade option in the dropdown menu. |
 | **Divider Line** | `.noRWQA3grBYNT5QG` | Hides the divider line in the dropdown menu. |
 | **Your Updates** | `.wwh7lpPwfhcu8qTg` | Hides the "Your Updates" bell/section. |
+
+<br>
 
 ### Home Page
 
@@ -48,6 +58,8 @@
 | **Getting Started** | `[data-testid="home-page"] .C8qLX8lOHwAx63FP` | Hides introductory cards. |
 | **Promo Cards** | `[data-testid="home-page"] :is(.re6tIyfoHvgJCQod, .k2lmpygysqwv8ES4)`| Hides promotional music and tour cards. |
 
+<br>
+
 ### Artist Page
 
 | UI Element | Current Class Hash / Selector | Action |
@@ -58,12 +70,16 @@
 | **On Tour** | `[data-testid="artist-page"] .contentSpacing > div:nth-child(4)` | Hides the tour dates section. |
 | **About Section** | `[data-testid="artist-page"] .contentSpacing > div:nth-child(5)` | Hides the artist biography/about section. |
 
+<br>
+
 ### Media Pages (Album, Playlist, Track)
 
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
 | **General Shelves** | `:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) .Shelf` | Hides card-style recommendations on media pages. |
 | **List Recommendations**| `:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) :is(.Ld0s4rBe_x0Ke84Q, .kgkMCZPpmzc5dRXd)` | Hides list-style recommendations. |
+
+<br>
 
 ### Now Playing (Right Sidebar)
 
@@ -73,6 +89,8 @@
 | **Bottom Fade** | `.aOBAWy97nIgISCgo` | Removes the bottom gradient overlay in the sidebar. |
 
 <br>
+
+---
 
 <p align="center">
   <i>Making it worse before it gets better.</i>
