@@ -5,10 +5,12 @@
 @description  Your music, zero distractions, without the clutter.
 @author       KAUN
 @license      MIT
+@updateURL    https://raw.githubusercontent.com/kaunkrishna/clean-spotify/refs/heads/main/userstyle/clean-spotify.user.css
+@downloadURL  https://raw.githubusercontent.com/kaunkrishna/clean-spotify/refs/heads/main/userstyle/clean-spotify.user.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://open.spotify.com/") {
-  /* ========== LAYOUT TWEAKS & OVERRIDES ========== */
+
   .kaFcDUSEXPonEYJm:after,
   .ESQKhiBFqQIFO1qu:after {
     background-color: transparent;
@@ -44,16 +46,15 @@
     padding-top: 40px;
   }
 
-  [data-testid="artist-page"] .contentSpacing > .Shelf:nth-child(2),
+  [data-testid="artist-page"] .contentSpacing>.Shelf:nth-child(2),
   [data-testid="artist-page"] .encore-text-body-small-bold {
     display: flex !important;
   }
 
-  /* ========== HIDDEN ELEMENTS ========== */
   .Cafs_YTh_Qg9Jk7m,
   .encore-text-body-small-bold,
   .ESQKhiBFqQIFO1qu,
-  .glp7Ah4Cywoy2Q6n > li:nth-child(4),
+  .glp7Ah4Cywoy2Q6n>li:nth-child(4),
   .noRWQA3grBYNT5QG,
   .wwh7lpPwfhcu8qTg,
   .WsYez2D10Mop_rOw,
