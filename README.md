@@ -6,8 +6,9 @@
 
 <br>
 
-[![Platform](https://img.shields.io/badge/PLATFORM-SPOTIFY%20WEB-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com)
-[![Install Clean Spotify](https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://userstyles.world/style/27855/clean-spotify)
+<a href="https://open.spotify.com"><img src="https://img.shields.io/badge/PLATFORM-SPOTIFY%20WEB-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=282828" alt="Platform"></a>
+&nbsp;
+<a href="https://userstyles.world/style/27855/clean-spotify"><img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=282828" alt="Install Clean Spotify"></a>
 
 *Step-by-step installation instructions [below](#installation)*
 </div>
@@ -44,6 +45,7 @@
 
 <details>
 <summary>Step-by-Step Installation Instructions</summary>
+<br>
 
 - **Install a Userstyle Manager** - Before installing the theme, you need a browser extension that handles custom userstyles. The recommended choice is *[Stylus](https://github.com/openstyles/stylus)* (available for Chrome, Firefox, Edge, and Opera).
 
@@ -52,7 +54,7 @@
   <br>
   <div align="center">
     <a href="https://userstyles.world/style/27855/clean-spotify">
-      <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Install Clean Spotify" width="250" height="auto">
+      <img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=282828" alt="Install Clean Spotify" width="250" height="auto">
     </a>
   </div>
   <br>
