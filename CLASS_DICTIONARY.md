@@ -21,7 +21,7 @@
 | **Header Container** | `.YsP3Gj4aJDYsaOC5` | Forces the header to full-width and spaces elements. |
 | **Home Button Spacing** | `.qPaMr9Jzt0_Doy3C ._Bg_zSvFrEutyacG` | Adds margin space left of the Home (house) icon. |
 | **Spotify Logo** | `.Cafs_YTh_Qg9Jk7m` | Hides the Spotify logo in the top-left corner. |
-| **Right Side Buttons** | `.encore-text-body-small-bold` | Hides buttons like "Explore Premium". *(Note: This is overridden later to show the "Show All" button).* |
+| **Right Side Buttons** | `.encore-text-body-small-bold` | Hides buttons like "Explore Premium". *(Note: This is overridden later to display the "Show All" button, the "Cancel" and "Done" buttons when adding a song to a playlist or liking it, and the home page music tiles on smaller displays).* |
 
 <br>
 
