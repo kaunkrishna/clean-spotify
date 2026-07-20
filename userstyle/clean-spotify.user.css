@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Clean Spotify
-@version      1.1.4
+@version      1.1.5
 @namespace    https://github.com/kaunkrishna/clean-spotify
 @description  Your music, zero distractions, without the clutter.
 @author       KAUN
@@ -46,8 +46,10 @@
     padding-top: 40px;
   }
 
-  [data-testid="artist-page"] .contentSpacing>.Shelf:nth-child(2),
-  [data-testid="artist-page"] .encore-text-body-small-bold {
+  [data-testid="home-page"] .encore-text-body-small-bold,
+  [data-testid="artist-page"] .contentSpacing > .Shelf:nth-child(2),
+  [data-testid="artist-page"] .encore-text-body-small-bold,
+  .UmC7B1blaToOXizU button {
     display: flex !important;
   }
 
@@ -68,4 +70,5 @@
   :is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) :is(.Shelf, .Ld0s4rBe_x0Ke84Q, .kgkMCZPpmzc5dRXd) {
     display: none !important;
   }
+  
 }
