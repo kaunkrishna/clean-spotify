@@ -15,25 +15,25 @@
 
 <br>
 
-<p align="center"><img src="assets/images/home-page.png" width="95%"></p>
+<p align="center"><img src="images/home-page.png" width="95%"></p>
 <p align="center"><i>Home Page</i></p>
 
 <br>
 <br>
 
-<p align="center"><img src="assets/images/now-playing.png" width="95%"></p>
+<p align="center"><img src="images/now-playing.png" width="95%"></p>
 <p align="center"><i>Now Playing</i></p>
 
 <br>
 <br>
 
-<p align="center"><img src="assets/images/artist-page.png" width="95%"></p>
+<p align="center"><img src="images/artist-page.png" width="95%"></p>
 <p align="center"><i>Artist Page</i></p>
 
 <br>
 <br>
 
-<p align="center"><img src="assets/images/album-page.png" width="95%"></p>
+<p align="center"><img src="images/album-page.png" width="95%"></p>
 <p align="center"><i>Album Page</i></p>
 
 <br>
