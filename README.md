@@ -2,7 +2,7 @@
 
 # CLEAN SPOTIFY
 
-#### Your music, zero distractions, without the clutter.
+Your music, zero distractions, without the clutter.
 
 <br>
 
