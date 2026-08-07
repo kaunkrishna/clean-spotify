@@ -7,7 +7,6 @@ Your music, zero distractions, without the clutter.
 <br>
 
 <a href="https://open.spotify.com"><img src="https://img.shields.io/badge/PLATFORM-SPOTIFY%20WEB-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=282828" alt="Platform"></a>
-&nbsp;
 <a href="https://userstyles.world/style/27855/clean-spotify"><img src="https://img.shields.io/badge/INSTALL-CLEAN%20SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=282828" alt="Install Clean Spotify"></a>
 
 *Step-by-step installation instructions [below](#installation)*
@@ -68,35 +67,27 @@ Your music, zero distractions, without the clutter.
 ## Interface Cleanups
 
 <details open>
-<summary>Header & Navigation</summary>
+<summary>Global UI & Profile Menu</summary>
 
-- Hides top-left Spotify Logo
-- Hides unnecessary right-side buttons (Upgrade, etc.)
-- Centers and beautifully resizes the search bar
+- Hides global filter pills, scrollbars, and the main footer
+- Cleans up the profile dropdown (hides Premium upgrade, dividers, and updates)
+- Ensures essential liking/action buttons remain completely visible
 </details>
 
 <details>
 <summary>Home Page</summary>
 
-- Hides "Jump back in" and "Made for you" shelves
-- Hides promotional music cards and "Spotify Clips"
-- Blocks AI song and AI playlist recommendations
+- Hides carousel-style recommendations
+- Removes video reels and component shelves
+- Keeps functional text buttons cleanly visible
 </details>
 
 <details>
 <summary>Artist & Media Pages</summary>
 
-- Keeps clean **Discography** visible (along with "Show All")
-- Hides "On Tour", "About", and promotional cards on Artist page
-- Removes card/list recommendations on Album, Playlist, and Track pages
-</details>
-
-<details>
-<summary>Now Playing & UI Adjustments</summary>
-
-- Hides crowded Artist Info in the right sidebar
-- Removes vertical scrollbars for a completely flat look
-- Hides the global footer container
+- Keeps the clean **Discography** visible (along with the "Show All" button)
+- Hides "On Tour", "About", and extra promotional shelves on Artist pages
+- Removes cluttered card and list-style recommendations on Album, Playlist, and Track pages
 </details>
 
 <br>
