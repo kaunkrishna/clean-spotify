@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Clean Spotify
-@version      1.0.6
+@version      1.1.0
 @namespace    https://github.com/kaunkrishna/clean-spotify
 @description  Your music, zero distractions, without the clutter.
 @author       KAUN
@@ -9,66 +9,68 @@
 @downloadURL  https://raw.githubusercontent.com/kaunkrishna/clean-spotify/refs/heads/main/userstyle/clean-spotify.user.css
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://open.spotify.com/") {
+@-moz-document domain("open.spotify.com") {
 
-  .kaFcDUSEXPonEYJm:after,
-  .ESQKhiBFqQIFO1qu:after {
-    background-color: transparent;
+/* --- GLOBAL --- */
+.encore-text-body-small-bold,
+.g8bL3bGxc63nO5u9gY7g,
+.os-scrollbar-vertical,
+.main-view-container__mh-footer-container {
+  display: none !important;
+}
+
+.UmC7B1blaToOXizU button {
+  display: flex !important;
+}
+
+
+/* --- PROFILE MENU --- */
+[data-testid="user-widget-menu"] {
+  & ul > li:nth-child(4),
+  .TC38nBQRHCYnwoEsmMZZ,
+  .aut5NpEEkS68T8ZrggVU {
+    display: none !important;
   }
+}
 
-  .YsP3Gj4aJDYsaOC5 {
-    width: 100%;
-    min-width: 350px;
-    max-width: none;
-    justify-content: space-between;
-  }
 
-  .qPaMr9Jzt0_Doy3C ._Bg_zSvFrEutyacG {
-    margin-inline-start: 20px;
-  }
-
-  .eu6ObgEHE5owtzi_ {
-    width: 30%;
-    padding-inline: 0;
-    position: relative;
-    display: flex;
-    margin: auto;
-    padding-right: 58px;
-  }
-
-  @media (max-width: 1350px) {
-    .eu6ObgEHE5owtzi_ {
-      width: 50%;
-    }
-  }
-
-  [data-testid="home-page"] {
-    padding-top: 40px;
-  }
-
-  [data-testid="home-page"] .encore-text-body-small-bold,
-  [data-testid="artist-page"] .contentSpacing > .Shelf:nth-child(2),
-  [data-testid="artist-page"] .encore-text-body-small-bold,
-  .UmC7B1blaToOXizU button {
-    display: flex !important;
-  }
-
-  .Cafs_YTh_Qg9Jk7m,
-  .encore-text-body-small-bold,
-  .ESQKhiBFqQIFO1qu,
-  .glp7Ah4Cywoy2Q6n>li:nth-child(4),
-  .noRWQA3grBYNT5QG,
-  .wwh7lpPwfhcu8qTg,
-  .WsYez2D10Mop_rOw,
-  .x_HLN829yDsvJDgl,
-  .ax9CMxA763c25wSn,
-  .aOBAWy97nIgISCgo,
-  .os-scrollbar-vertical,
-  .main-view-container__mh-footer-container,
-  [data-testid="home-page"] :is(.aKzLj1l9YnIwouCc, .l3tPikCftuELMOzz, .YR7WOlf_lck48w4l, .C8qLX8lOHwAx63FP, .re6tIyfoHvgJCQod, .k2lmpygysqwv8ES4),
-  [data-testid="artist-page"] :is(.Shelf, .contentSpacing > div:nth-child(4), .contentSpacing > div:nth-child(5)),
-  :is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) :is(.Shelf, .Ld0s4rBe_x0Ke84Q, .kgkMCZPpmzc5dRXd) {
+/* --- HOME PAGE --- */
+[data-testid="home-page"] {
+  padding-top: 40px;
+  
+  [data-shelf="carousel"],
+  [data-testid="component-shelf"] {
     display: none !important;
   }
   
+  .encore-text-body-small-bold {
+    display: flex !important;
+  }
+}
+
+
+/* --- ARTIST PAGE --- */
+[data-testid="artist-page"] {
+  .Shelf,
+  .contentSpacing > div:nth-child(4),
+  .contentSpacing > div:nth-child(5) {
+    display: none !important;
+  }
+
+  .contentSpacing > .Shelf:nth-child(2),
+  .encore-text-body-small-bold {
+    display: flex !important;
+  }
+}
+
+
+/* --- MEDIA PAGES (Album, Playlist, Track) --- */
+:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) {
+  .Shelf,
+  .Ld0s4rBe_x0Ke84Q,
+  .kgkMCZPpmzc5dRXd {
+    display: none !important;
+  }
+}
+
 }
