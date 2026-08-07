@@ -1,92 +1,72 @@
-# Clean Spotify - Class Dictionary
+# Class Dictionary
 
 > [!WARNING]
 > Spotify uses dynamic class names - the userstyle may break after updates.
 
 <br>
 
-### Global & Overrides
+### Global
+
+**Scope:** Site-wide
 
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
+| **Various Buttons** | `.encore-text-body-small-bold` | Hides buttons globally. |
+| **Filter Pills** | `.g8bL3bGxc63nO5u9gY7g` | Hides the filter pills on the UI. |
 | **Global Scrollbar** | `.os-scrollbar-vertical` | Hides the vertical scrollbar globally. |
 | **Main Footer** | `.main-view-container__mh-footer-container` | Hides the main Spotify footer container. |
-
-<br>
-
-### Top Header
-
-| UI Element | Current Class Hash / Selector | Action |
-| :--- | :--- | :--- |
-| **Header Container** | `.YsP3Gj4aJDYsaOC5` | Forces the header to full-width and spaces elements. |
-| **Home Button Spacing** | `.qPaMr9Jzt0_Doy3C ._Bg_zSvFrEutyacG` | Adds margin space left of the Home (house) icon. |
-| **Spotify Logo** | `.Cafs_YTh_Qg9Jk7m` | Hides the Spotify logo in the top-left corner. |
-| **Right Side Buttons** | `.encore-text-body-small-bold` | Hides buttons like "Explore Premium". *(Note: This is overridden later to display the "Show All" button, the "Cancel" and "Done" buttons when adding a song to a playlist or liking it, and the home page music tiles on smaller displays).* |
-
-<br>
-
-### Search Bar
-
-| UI Element | Current Class Hash / Selector | Action |
-| :--- | :--- | :--- |
-| **Search Container** | `.eu6ObgEHE5owtzi_` | Centers and resizes the search input field. |
-| **Hover Shortcuts**| `.WsYez2D10Mop_rOw` | Hides the keyboard shortcut hints in the search bar. |
-| **Filter Pills** | `.x_HLN829yDsvJDgl` | Hides the "All", "Music", and "Podcast" filter pills. |
+| **Liking Buttons** | `.UmC7B1blaToOXizU button` | **[Override]** Forces the liking/action buttons to display. |
 
 <br>
 
 ### Profile Menu
 
+**Selector:** `[data-testid="user-widget-menu"]`
+
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
-| **Hover Underline**| `.kaFcDUSEXPonEYJm:after`, `.ESQKhiBFqQIFO1qu:after` | Removes the green active/hover underline on profile items. |
-| **Progress Bar** | `.ESQKhiBFqQIFO1qu` | Hides the "Getting Started" progress bar entirely. |
-| **Upgrade to Premium** | `.glp7Ah4Cywoy2Q6n > li:nth-child(4)` | Hides the upgrade option in the dropdown menu. |
-| **Divider Line** | `.noRWQA3grBYNT5QG` | Hides the divider line in the dropdown menu. |
-| **Your Updates** | `.wwh7lpPwfhcu8qTg` | Hides the "Your Updates" bell/section. |
+| **Upgrade to Premium** | `& ul > li:nth-child(4)` | Hides the premium upgrade option in the dropdown menu. |
+| **Divider Line** | `.TC38nBQRHCYnwoEsmMZZ` | Hides the divider line in the dropdown menu. |
+| **Your Updates** | `.aut5NpEEkS68T8ZrggVU` | Hides the "Your Updates" section in the menu. |
 
 <br>
 
 ### Home Page
 
+**Selector:** `[data-testid="home-page"]`
+
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
-| **Home Container** | `[data-testid="home-page"]` | Adds top padding to offset the custom header. |
-| **Jump Back In** | `[data-testid="home-page"] .aKzLj1l9YnIwouCc` | Hides the "Jump back in" section. |
-| **Recommendations** | `[data-testid="home-page"] .l3tPikCftuELMOzz` | Hides general recommendations. |
-| **Made For You** | `[data-testid="home-page"] .YR7WOlf_lck48w4l` | Hides the "Made for you" section. |
-| **Getting Started** | `[data-testid="home-page"] .C8qLX8lOHwAx63FP` | Hides introductory cards. |
-| **Promo Cards** | `[data-testid="home-page"] :is(.re6tIyfoHvgJCQod, .k2lmpygysqwv8ES4)`| Hides promotional music and tour cards. |
+| **Home Container** | `(Parent Container)` | Adds top padding to the home view. |
+| **Recommendations** | `[data-shelf="carousel"]` | Hides carousel-style recommendations. |
+| **The Reels** | `[data-testid="component-shelf"]` | Hides component shelves/reels. |
+| **Small Text Buttons** | `.encore-text-body-small-bold` | **[Override]** Forces the smaller text buttons to display on the home page. |
 
 <br>
 
 ### Artist Page
 
+**Selector:** `[data-testid="artist-page"]`
+
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
-| **Discography** | `[data-testid="artist-page"] .contentSpacing > .Shelf:nth-child(2)` | Keeps the main discography row visible. |
-| **"Show All" Button** | `[data-testid="artist-page"] .encore-text-body-small-bold` | Overrides the global hide to keep this button visible. |
-| **Other Shelves** | `[data-testid="artist-page"] .Shelf` | Hides all other music shelves on the artist page. |
-| **On Tour** | `[data-testid="artist-page"] .contentSpacing > div:nth-child(4)` | Hides the tour dates section. |
-| **About Section** | `[data-testid="artist-page"] .contentSpacing > div:nth-child(5)` | Hides the artist biography/about section. |
+| **Other Shelves** | `.Shelf` | Hides all other music shelves on the artist page. |
+| **On Tour** | `.contentSpacing > div:nth-child(4)` | Hides the tour dates section. |
+| **About Section** | `.contentSpacing > div:nth-child(5)` | Hides the artist biography/about section. |
+| **Discography** | `.contentSpacing > .Shelf:nth-child(2)` | **[Override]** Keeps the main discography row visible. |
+| **"Show All" Button** | `.encore-text-body-small-bold` | **[Override]** Keeps this specific button visible on artist pages. |
 
 <br>
 
 ### Media Pages (Album, Playlist, Track)
 
-| UI Element | Current Class Hash / Selector | Action |
-| :--- | :--- | :--- |
-| **General Shelves** | `:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) .Shelf` | Hides card-style recommendations on media pages. |
-| **List Recommendations**| `:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) :is(.Ld0s4rBe_x0Ke84Q, .kgkMCZPpmzc5dRXd)` | Hides list-style recommendations. |
-
-<br>
-
-### Now Playing (Right Sidebar)
+**Selector:** `:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"])`
 
 | UI Element | Current Class Hash / Selector | Action |
 | :--- | :--- | :--- |
-| **Artist Info** | `.ax9CMxA763c25wSn` | Hides artist info and credits in the Now Playing sidebar. |
-| **Bottom Fade** | `.aOBAWy97nIgISCgo` | Removes the bottom gradient overlay in the sidebar. |
+| **General Shelves** | `.Shelf` | Hides card-style recommendations. |
+| **List Recommendations 1** | `.Ld0s4rBe_x0Ke84Q` | Hides list-style recommendations. |
+| **List Recommendations 2** | `.kgkMCZPpmzc5dRXd` | Hides additional list-style recommendations. |
 
 <br>
 
