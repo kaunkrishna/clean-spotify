@@ -5,7 +5,7 @@
 
 <br>
 
-### Global
+## Global
 
 **Scope:** Site-wide
 
@@ -19,7 +19,7 @@
 
 <br>
 
-### Profile Menu
+## Profile Menu
 
 **Selector:** `[data-testid="user-widget-menu"]`
 
@@ -31,7 +31,7 @@
 
 <br>
 
-### Home Page
+## Home Page
 
 **Selector:** `[data-testid="home-page"]`
 
@@ -44,7 +44,7 @@
 
 <br>
 
-### Artist Page
+## Artist Page
 
 **Selector:** `[data-testid="artist-page"]`
 
@@ -58,7 +58,7 @@
 
 <br>
 
-### Media Pages (Album, Playlist, Track)
+## Media Pages (Album, Playlist, Track)
 
 **Selector:** `:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"])`
 
