@@ -15,7 +15,7 @@
 | **Filter Pills** | `.g8bL3bGxc63nO5u9gY7g` | Hides the filter pills on the UI. |
 | **Global Scrollbar** | `.os-scrollbar-vertical` | Hides the vertical scrollbar globally. |
 | **Main Footer** | `.main-view-container__mh-footer-container` | Hides the main Spotify footer container. |
-| **Liking Buttons** | `.UmC7B1blaToOXizU button` | **[Override]** Forces the liking/action buttons to display. |
+| **Now Playing - Sidebar** | `aside[aria-label="Now playing view"] button` | **[Override]** Forces the buttons to be visible. |
 
 <br>
 
