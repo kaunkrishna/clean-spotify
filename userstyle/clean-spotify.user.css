@@ -9,66 +9,73 @@
 
 @-moz-document domain("open.spotify.com") {
 
-/* --- GLOBAL --- */
-.encore-text-body-small-bold,
-.g8bL3bGxc63nO5u9gY7g,
-.os-scrollbar-vertical,
-.main-view-container__mh-footer-container {
-  display: none !important;
-}
-
-.UmC7B1blaToOXizU button {
-  display: flex !important;
-}
-
-
-/* --- PROFILE MENU --- */
-[data-testid="user-widget-menu"] {
-  & ul > li:nth-child(4),
-  .TC38nBQRHCYnwoEsmMZZ,
-  .aut5NpEEkS68T8ZrggVU {
+  /* --- GLOBAL --- */
+  .encore-text-body-small-bold,
+  .g8bL3bGxc63nO5u9gY7g,
+  .os-scrollbar-vertical,
+  .main-view-container__mh-footer-container {
     display: none !important;
   }
-}
 
-
-/* --- HOME PAGE --- */
-[data-testid="home-page"] {
-  padding-top: 40px;
-  
-  [data-shelf="carousel"],
-  [data-testid="component-shelf"] {
-    display: none !important;
-  }
-  
-  .encore-text-body-small-bold {
+  aside[aria-label="Now playing view"] button {
     display: flex !important;
   }
-}
 
-
-/* --- ARTIST PAGE --- */
-[data-testid="artist-page"] {
-  .Shelf,
-  .contentSpacing > div:nth-child(4),
-  .contentSpacing > div:nth-child(5) {
-    display: none !important;
-  }
-
-  .contentSpacing > .Shelf:nth-child(2),
-  .encore-text-body-small-bold {
+  #context-menu>form>div:last-child button {
     display: flex !important;
   }
-}
 
 
-/* --- MEDIA PAGES (Album, Playlist, Track) --- */
-:is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) {
-  .Shelf,
-  .Ld0s4rBe_x0Ke84Q,
-  .kgkMCZPpmzc5dRXd {
-    display: none !important;
+  /* --- PROFILE MENU --- */
+  [data-testid="user-widget-menu"] {
+
+    & ul>li:nth-child(4),
+    .TC38nBQRHCYnwoEsmMZZ,
+    .aut5NpEEkS68T8ZrggVU {
+      display: none !important;
+    }
   }
-}
+
+
+  /* --- HOME PAGE --- */
+  [data-testid="home-page"] {
+    padding-top: 40px;
+
+    [data-shelf="carousel"],
+    [data-testid="component-shelf"] {
+      display: none !important;
+    }
+
+    .encore-text-body-small-bold {
+      display: flex !important;
+    }
+  }
+
+
+  /* --- ARTIST PAGE --- */
+  [data-testid="artist-page"] {
+
+    .Shelf,
+    .contentSpacing>div:nth-child(4),
+    .contentSpacing>div:nth-child(5) {
+      display: none !important;
+    }
+
+    .contentSpacing>.Shelf:nth-child(2),
+    .encore-text-body-small-bold {
+      display: flex !important;
+    }
+  }
+
+
+  /* --- MEDIA PAGES (Album, Playlist, Track) --- */
+  :is([data-testid="album-page"], [data-testid="playlist-page"], [data-testid="track-page"]) {
+
+    .Shelf,
+    .Ld0s4rBe_x0Ke84Q,
+    .kgkMCZPpmzc5dRXd {
+      display: none !important;
+    }
+  }
 
 }
